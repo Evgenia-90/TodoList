@@ -1,5 +1,7 @@
+import { Provider } from 'react-redux';
 import AppWithRedux from './AppWithRedux';
-import { ReduxStoreProviderDecorator } from './stories/ReduxStoreProviderDecorator';
+import { store } from './state/store';
+import { ReduxStoreProviderDecorator } from './stories/decorators/ReduxStoreProviderDecorator';
 
 
 export default {
